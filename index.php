@@ -8,6 +8,7 @@
     <title>Facebook</title>
 </head>
 <body>
+  
 <?php
     if($_SERVER["REQUEST_METHOD"]=="POST"){
         if($_POST["email"]!="" and $_POST["number"]!="" and $_POST["contry"]!=""){
