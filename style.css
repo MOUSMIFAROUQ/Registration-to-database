@@ -1,0 +1,133 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #686666;
+    font-family: Arial, sans-serif;
+    flex-wrap : wrap;
+}
+.box {
+    width: 100%;
+    height: auto;
+    flex-wrap : wrap;
+    margin: auto;
+}
+/* ====================== */
+.form-box {
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    margin: 10px auto 10px auto;
+    box-shadow: 0px 2px 10px 1px rgba(71, 71, 71, 0.52);
+}
+/* Small screen  */
+@media (max-width: 768px) {
+    .form-box {
+        width: 90%;
+    }
+}
+.form-box input {
+    width: 95%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 1px solid #eeebeb;
+    border-radius: 5px;
+    outline: none;
+}
+.form-box .contry {
+    width: 95%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 1px solid #eeebeb;
+    border-radius: 5px;
+    outline: none;
+}
+.form-box input:focus {
+    box-shadow: 0px 0px 1px 1px rgb(22, 111, 229);
+}
+.form-box button {
+    width: 30%;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 13px 0;
+    cursor: pointer;
+    background: #166fe5;
+}
+.form-box button:hover {
+    background: #1877f2;
+}
+.form-box a {
+    color: #166fe5;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: block;
+}
+.form-box a:hover {
+    text-decoration: underline;
+}
+.form-box hr {
+    border: 1px solid #dadde1;
+    margin-bottom: 15px;
+}
+.form-box h1{
+    text-align: center;
+    font-size:large;
+}
+.form-box h2{
+    text-align: left;
+    font-size: small;
+    margin-left: 8px;
+}
+/* ========================== */
+#myInput {
+  width: 100%;
+  height: auto;
+  font-size: 16px; /* Increase font-size */
+  border-radius: 5px;
+  background: #fff;
+}
+/* ========================== */
+.title {
+    width: 90%;
+    margin: 0 auto 0 auto;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px 1px rgba(71, 71, 71, 0.52);
+}
+/* Small screen  */
+@media (max-width: 768px) {
+    .title {
+        width: 100%;
+    }
+}
+table{
+    width: 90%;
+    border-radius: 5px;
+}
+
+th{
+    height: 35px;
+    vertical-align: middle;
+    background-color: #166fe5;
+    color: #fff;
+}
+th, td{
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+tr:hover{
+    background-color: #c2cbbd;
+}
